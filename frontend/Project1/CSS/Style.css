@@ -1,0 +1,368 @@
+body {
+
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  background-image: url(pexels-oksana-titova-6498182.jpg);
+  background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+
+}
+
+header {
+	background-color: tan;
+	color: white;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+h1 {
+	flex: 1 0 auto;
+	margin: 0;
+  color:  brown;
+}
+input
+{
+  margin-left: 45px;
+  margin-top: 10px;
+  text-align: center;
+  display: block;
+  padding: 8px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+	font-family:'Times New Roman', Times, serif
+}
+.ret{
+  margin-left: 80px;
+}
+
+
+.polaroid1 {
+ 
+  text-align: center;
+	max-width: 40%;
+	max-height: 80%;
+	margin:  auto;
+	padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right:0px ;
+	background-color: rgba(117, 56, 9, 0.789);
+	border-radius: 10px;
+  border: 100px;
+  border-color: rgb(13, 12, 11);
+	box-shadow: skyblue;
+}
+label {
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: left;
+  color: #f2f2f2;
+}
+
+h2 {
+ 
+color: brown;
+
+}
+
+.a{
+  height: 100vh;
+}
+
+
+h3 {
+	flex: 1 0 auto;
+	margin: 0;
+  color: brown;
+}
+
+h4 {
+	flex: 1 0 auto;
+	margin: 0;
+  color: brown;
+}
+h5 {
+	flex: 1 0 auto;
+	margin: 0;
+  color: brown;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: white;
+	color: tan;
+}
+
+main {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+  background-image: url("");
+background-position: center;
+background-size:contain;
+background-repeat: no-repeat;
+}
+
+
+section {
+	flex: 1 0 25%;
+	margin: 10px;
+}
+
+section h2 {
+	font-size: 24px;
+	margin: 0 0 10px 0;
+}
+
+section ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+section li {
+	margin-bottom: 5px;
+}
+
+.slideshow-container {
+	max-width: 100%;
+	position: center;
+	margin: 0;
+  display: inline-block;
+}
+
+.mySlides {
+	width: 100%;
+  height: 100%;
+  margin: -100;
+  padding:auto;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+.prev {
+  left: 0;
+  background-color: tan;
+  }
+  
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  background-color: tan;
+}
+  
+.prev:hover, .next:hover {
+  background-color: white;
+  color: blue;
+}
+  
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: tan;
+}
+    
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+    
+    footer {
+    background-color: tan;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    }
+    
+      
+      footer p {
+      margin: 0;
+      }
+      
+
+   
+
+      button[type="submit"] {
+        background-color: tan;
+        color: black;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      
+      }
+      button:hover{
+        background-color: rgb(245, 209, 161);
+      }
+
+      nav li:nth-child(8) {
+        background-color: brown;
+        text-decoration: none;
+       
+        padding: 10px;
+        margin: 0 10px;
+        }
+     
+
+        section h3{
+          color: white;
+        text-align: left;
+        font-size: 16px;
+        margin-left: 2px;
+        display: inline-block;
+
+        }
+
+      
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: max-content;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: rgb(255, 255, 0255);
+  font-weight: 800;
+  font-size: 35px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.sec3{
+  display: block;
+}
+.destination{
+  display: inline;
+
+}
+.aaa{
+  padding-bottom: 110px;
+  padding-left: 220px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}

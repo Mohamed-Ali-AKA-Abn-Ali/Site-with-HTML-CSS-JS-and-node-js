@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Flight Booking</title>
+	<link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+	<header>
+		<h1>Flight Booking</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Flights</a></li>
+				<li><a href="#">Hotels</a></li>
+				<li><a href="#">Car Rentals</a></li>
+				<li><a href="#">Vacation Packages</a></li>
+				<li><a href="#">Deals</a></li>
+				<li><a href="#">Sign in</a></li>
+				<li><a href="sign up/signup.html">Sign Up</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+
+		<section class=" a">
+			
+			<h2 class="he">Search Flights</h2>
+			
+				
+				<div class="polaroid1">
+				<label class="title">Departure Airport</label>
+				<input type="text" name="departure"> </br>
+
+				<label class="title">Destination Airport</label>
+				<input type="text" name="destination"> </br>
+
+				<label class="title">Departure Date</label>
+				<input type="date" name="departure-date" class="ret"> </br>
+
+				<label >Return Date</label>
+				<input type="date" name="return-date" class="ret"> </br>
+
+				<button type="submit" onclick="submitForm()">check for Flight</button>
+			</div>
+
+		</section>
+
+
+		<section class="sec2">
+			<h2>DESTENATIONS</h2>
+           <!-- Slideshow container -->
+<div class="slideshow-container">
+
+	<!-- Full-width images with number and caption text -->
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 3</div>
+	  <img src="pexels-roberto-vivancos-2190283.jpg" style="width:100%">
+	  <div class="text">new York</div>
+	</div>
+  
+	<div class="mySlides fade">
+	  <div class="numbertext">2 / 3</div>
+	  <img src="180413132330-12-las-vegas-casinos.jpg" style="width:100%">
+	  <div class="text">las vegas</div>
+	</div>
+  
+	<div class="mySlides fade">
+	  <div class="numbertext">3 / 3</div>
+	  <img src="pexels-tyler-lastovich-412681.jpg" style="width:100%">
+	  <div class="text">los angeles</div>
+	</div>
+  
+	<!-- Next and previous buttons -->
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  
+
+		<div class="destination">
+			<h2>Featured Destinations</h2>
+			<ul>
+				<h3><li><a href="https://www.google.com/search?q=new+york&sxsrf=APwXEdcpVoB8qC_pxOrIIO61gpaaV21X0Q%3A1684104957403&ei=_WZhZMacGPGN9u8PiPq4gAc&gs_ssp=eJzj4tTP1TcwijeyMDNg9OLISy1XqMwvygYAOpEF8g&oq=new&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgcILhCKBRAnMg0ILhCKBRCxAxCDARBDMgoILhCKBRDUAhBDMgoILhCKBRDUAhBDMg0IABCKBRCxAxCDARBDMgcILhCKBRBDMgcILhCKBRBDMgcILhCKBRBDMgcILhCKBRBDMhMILhCKBRCxAxCDARDHARDRAxBDMhMILhCKBRCXBRDcBBDeBBDgBBgDOgoIABBHENYEELADOgoILhCKBRCwAxBDOgoIABCKBRCwAxBDOg0IABDkAhDWBBCwAxgBOhsILhCKBRDHARCvARCYBRCeBRDIAxCwAxBDGAI6DwguEIoFEMgDELADEEMYAjoSCC4QigUQ1AIQyAMQsAMQQxgCOgcIIxCKBRAnSgQIQRgAUIcMWMIQYNwgaAFwAXgAgAGZAYgBwAOSAQMwLjOYAQCgAQHIARPAAQHaAQYIARABGAnaAQYIAhABGAjaAQYIAxABGBQ&sclient=gws-wiz-serp">New York City</a></li></h3> 
+				<h3><li><a href="https://www.google.com/search?q=los+angeles&sxsrf=APwXEdcv8jYVPT0vVWqrdDljLYAUfV4L0A%3A1684104881463&ei=sWZhZPP9G5SkkdUPhrCZgAw&ved=0ahUKEwizmuXJ8_X-AhUUUqQEHQZYBsAQ4dUDCA8&uact=5&oq=los+angeles&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQigUQJzIKCAAQgAQQFBCHAjIKCAAQgAQQFBCHAjILCC4QgAQQxwEQrwEyCwguEIMBELEDEIAEMggIABCABBCxAzILCC4QgAQQsQMQgwEyBQgAEIAEMgUIABCABDIFCAAQgAQ6CggAEEcQ1gQQsAM6CggAEIoFELADEENKBAhBGABQ4QhY4Qhg3RRoAXABeACAAawBiAGsAZIBAzAuMZgBAKABAcgBCsABAQ&sclient=gws-wiz-serp">Los Angeles</a></li></h3>
+				<h3><li><a href="https://www.google.com/search?q=+las+vegas&sxsrf=APwXEdcv8jYVPT0vVWqrdDljLYAUfV4L0A%3A1684104881463&ei=sWZhZPP9G5SkkdUPhrCZgAw&ved=0ahUKEwizmuXJ8_X-AhUUUqQEHQZYBsAQ4dUDCA8&uact=5&oq=+las+vegas&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzINCC4Q1AIQsQMQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCC4QigUQQzIHCAAQigUQQzIHCC4QigUQQzIHCAAQigUQQzIHCAAQigUQQzIGCAAQBxAeMhsILhDUAhCxAxCKBRBDEJcFENwEEN4EEOAEGAFKBAhBGABQAFgAYNQNaABwAHgAgAGgAYgBoAGSAQMwLjGYAQCgAQHAAQHaAQYIARABGBQ&sclient=gws-wiz-serp">las vegas</a></li></h3> 
+			</ul>
+		
+
+	
+			<h2>Top Airlines</h2>
+			<ul>
+				<h3><li><a href="https://delta.avature.net/careers/Error" >Delta Air Lines</a></li></h3>
+				<h3 ><li ></li><br><a href="https://www.aa.com/homePage.do?locale=en_US" >American Airlines</a></li></h3>
+				<h3 ><li ></li><br><a href="https://www.emirates.com/eg/english/" >Emirates Airlines</a></li></h3>
+				
+			</ul>
+	
+
+			<h2>Popular Hotels</h2>
+			<ul>
+				<h3><li><a href="https://www.hilton.com/en/" >Hilton Hotels & Resorts</a></li></h3>
+				<h3 ><li><a href="https://www.wyndhamhotels.com/wyndham">Wyndham Hotels & Resorts</a></li></h3>
+				<h3><li><a href="https://www.kempinski.com/en?source=S46992213&gclid=CjwKCAjwjYKjBhB5EiwAiFdSfqpoqKOE6i6rFaae3ee6LMq5QKGXyXOGrjol79N2JznQEtz90ijTshoCsEcQAvD_BwE" >KEMPINSKI Hotels </a></li></h3>
+            </ul>
+		</div>
+       
+
+            
+    
+            
+        </section>
+    </main>
+    
+    <footer>
+            <p>&copy; 2023 Flight Booking. All rights reserved.</p>
+    </footer>
+    <script src="JavaScript/script.js"></script>
+	
+</body>
+</html>    

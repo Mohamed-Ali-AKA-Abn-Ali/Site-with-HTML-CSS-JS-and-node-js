@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Flight Booking</title>
+	<link rel="stylesheet" href="CSS/Style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Flight Booking</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Flights</a></li>
+				<li><a href="#">Hotels</a></li>
+				<li><a href="#">Car Rentals</a></li>
+				<li><a href="#">Vacation Packages</a></li>
+				<li><a href="#">Deals</a></li>
+				<li><a href="#">Sign in</a></li>
+				<li><a href="HTML/signup.html">Sign Up</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section>
+			<h2>Search Flights</h2>
+			<form>
+				<label>Departure Airport</label>
+				<input type="text" name="departure">
+
+				<label>Destination Airport</label>
+				<input type="text" name="destination">
+
+				<label>Departure Date</label>
+				<input type="date" name="departure-date">
+
+				<label>Return Date</label>
+				<input type="date" name="return-date">
+
+				<input type="submit" value="Search Flights">
+			</form>
+		</section>
+
+		<section>
+			<h2>Featured Destinations</h2>
+			<ul>
+				<li><a href="#">New York City</a></li>
+				<li><a href="#">Los Angeles</a></li>
+				
+			</ul>
+		</section>
+
+		<section>
+			<h2>Top Airlines</h2>
+			<ul>
+				<li><a href="#">Delta Air Lines</a></li>
+				<li><a href="#">American Airlines</a></li>
+				
+			</ul>
+		</section>
+
+		<section class="hotels">
+			<h2>Popular Hotels</h2>
+			<ul>
+				<li><a href="#">Hilton Hotels & Resorts</a></li>
+				<li><a href="#">Wyndham Hotels & Resorts</a></li>
+            </ul>
+        </section>
+        <section>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/Alleppey.jpg" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+    
+                <div class="mySlides fade">
+                    <img src="images/big_12015_01_24_06_31_30jpg.jpg" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+    
+                <div class="mySlides fade">
+                    <img src="images/pisa.png" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+    
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+    
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+            <p>&copy; 2023 Flight Booking. All rights reserved.</p>
+    </footer>
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>    

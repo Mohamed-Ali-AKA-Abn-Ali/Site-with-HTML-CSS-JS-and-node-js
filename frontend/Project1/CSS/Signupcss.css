@@ -1,0 +1,57 @@
+.container {
+	max-width: 70%;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: gainsboro;
+	border-radius: 10px;
+	box-shadow: skyblue;
+}
+
+h1 {
+	margin-top: 0;
+	text-align: center;
+}
+
+form {
+	display: grid;
+	grid-gap: 10px;
+	background-color: transparent;
+}
+
+label {
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+	font-family:'Times New Roman', Times, serif
+}
+
+button[type="submit"] {
+	background-color: green;
+	color: black;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+
+}
+
+select{
+	font-size: 20px;
+	text-align: left;
+	background-color: whitesmoke;
+}
+
+
+ 
